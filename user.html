@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>注册制改革_打新技巧_毅恒基金官网</title>
+  <meta name="keywords" content="注册制股票,股票打新,注册制新股">
+  <meta name="description"
+    content="毅恒基金秉承“为信任成就托付”的企业宗旨，注重将投资收益及时转化为红利，为投资人创造了丰厚的回报。毅恒基金公司在注册制改革的前提下帮助客户能够抓住时机，赢得利益最大化。">
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/nav.css">
+
+  <link rel="stylesheet" href="./css/user.css">
+</head>
+
+<body>
+  <!-- nav start -->
+  <nav class="navbar navbar-default container-fluid navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">
+          <img src="./images/logo.png" alt="navbar_logo" class="logo">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/" class="font">首页</a></li>
+          <li><a href="/about.html" class="font">关于我们</a></li>
+          <li><a href="/market.html" class="font">基金超市</a></li>
+          <li><a href="/contactus.html" class="font">联系我们</a></li>
+          <li><a href="/signin.html" class="font">登录</a></li>
+          <li><a href="/reg.html" class="font signup">注册</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- nav end -->
+
+  <div class="user-layout">
+    <div class="background-img">
+      <div class="header-layout container">
+        <img class='img-responsive headImg' src='./images/me.jpg' alt="" />
+        <p class='username'>用户名：{this.state.username}</p>
+        <p class='username'>用户ID：{this.state.userid}</p>
+        <p class='username'>手机号：198****7480
+          <a data-toggle="tooltip" data-placement="top" title="管理账户">
+            <i class='fa fa-cog'></i>
+          </a>
+        </p>
+        <hr />
+        <h4>我的交易（共 ${this.state.count_num} 条记录，总 ${Math.ceil(this.state.count_num /
+          3)} 页，当前第 ${this.state.page} 页）</h4>
+
+        <div class="row">
+
+          <!-- loop start -->
+          <div class="col-xs-12 col-md-4">
+            <div class="thumbnail">
+              <div class="caption">
+                <h3>港股打新5号</h3>
+                <p>交易时间<span class='pull-right'>2020-11-12 14:11</span></p>
+                <p>订单编号<span class='pull-right'>20201112394</span></p>
+                <p>用户名<span class='pull-right'>曾祖父</span></p>
+                <p>联系方式<span class='pull-right'>198****7480</span></p>
+                <p>证件号<span class='pull-right'>440804568645</span></p>
+                <p>交易码<span class='pull-right'>44864848484848</span>
+                  <p>交易凭证<span class='pull-right'>
+                    <img src="./images/fund_pic.jpg" style="width: 50px;height: 20px;">
+                  </span></p>
+                  <p>交易金额<span class='pull-right'>1555</span></p>
+                <p>状态<span class="pull-right ${item.class}">待审核</span>
+                </p>
+                <hr />
+                <p><a href='/market.html' class="btn btn-primary" role="button">加购</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- loop end -->
+
+        </div>
+
+        <nav>
+          <ul class="page">
+            <li class='pull-left'>
+              <a class='btn btn-default'>上一页</a>
+            </li>
+            <li class='pull-right'>
+              <a class='btn btn-default'>下一页</a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- footer start -->
+  <footer class='footer-layout'>
+    <div class="container">
+      <div class="list col-xs-6 col-sm-3">
+        <a href="/">
+          <img src='./images/logo.png' alt="" />
+        </a>
+      </div>
+      <div class="list col-xs-6 col-sm-3">
+        <ul>
+          <li><strong>产品认购</strong></li>
+          <li>
+            <a href='/market.html'>基金超市</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="clearfix visible-xs-block"></div>
+
+      <div class="list col-xs-6 col-sm-3">
+        <ul>
+          <li>
+            <strong>资讯中心</strong>
+          </li>
+          <li>
+            <a href='/news.html'>行业新闻</a>
+          </li>
+          <li>
+            <a href='/news.html'>毅恒新闻</a>
+          </li>
+          <li>
+            <a href='/faq.html'>常见问题</a>
+          </li>
+        </ul>
+      </div>
+      <div class="list col-xs-6 col-sm-3">
+        <ul>
+          <li>
+            <strong>关于我们</strong>
+          </li>
+          <li>
+            <a href='/about.html'>关于毅恒</a>
+          </li>
+          <li>
+            <a href='/contactus.html'>联系我们</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="info container">
+      <div class="icons">
+
+        <span>
+
+          <i class="fa fa-weixin"></i>
+          <a href="tel:15818105420">
+            <i title='点击拨打' class="fa fa-phone"></i>
+          </a>
+
+        </span>
+
+      </div>
+
+      <a href='/risk.html'>风险揭示书 </a><label>|</label>
+      <a href='/privacy.html'> 隐私条款 </a><label>|</label>
+      <a href='/complaint.html'> 投诉建议</a>
+    </div>
+
+    <div class="copyright container">
+      <p>备案号：<a href='https://beian.miit.gov.cn/#/Integrated/index' target='_blank'>粤ICP备20052211号-1</a></p>
+      <p>投资有风险&nbsp;&nbsp;入市需谨慎</p>
+      <p>版权所有 © 2006-2020 毅恒宏观机会基金有限公司</p>
+    </div>
+  </footer>
+  <!-- footer end -->
+</body>
+<script>
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
+
+</html>

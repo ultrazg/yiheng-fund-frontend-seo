@@ -1,0 +1,29 @@
+.navbar-default {
+  border: #094182;
+}
+.navbar {
+  background: #094182;
+}
+.navbar .navbar-brand img {
+  margin-top: -10px;
+}
+.navbar .navbar-right a {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff !important;
+  transition: 0.3s;
+}
+.navbar .navbar-right a:hover {
+  color: #70a1ff !important;
+}
+.navbar .navbar-right .signup {
+  display: block;
+  margin-top: 10px;
+  height: 10px;
+  line-height: 1px;
+  background: #48dbfb;
+  transition: 0.5s;
+}
+.navbar .navbar-right .signup:hover {
+  background: #5352ed;
+}
